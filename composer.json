@@ -1,0 +1,27 @@
+{
+    "name": "smichaelsen/no-insecure-typo3-extensions",
+    "description": "This package declares conflicts to insecure TYPO3 extensions",
+    "authors": [
+        {
+            "name": "Sebastian Michaelsen",
+            "email": "sebastian@michaelsen.io"
+        }
+    ],
+    "conflict": {
+        "typo3-ter/aus-driver-amazon_s3": "<=1.7.0",
+        "andersundsehr/aus-driver-amazon-s3": "<=1.7.0",
+        "typo3-ter/aws-sdk": "<=3.0.4",
+        "typo3-ter/aws-sdk-php": "<=3.18.28",
+        "typo3-ter/mh-treeview": "<=0.1.0",
+        "typo3-ter/powermail": "<=2.25.2",
+        "in2code/powermail": "<=2.25.2",
+        "typo3-ter/registeraddress": "<=1.0.6",
+        "afm/registeraddress": "<=1.0.6",
+        "typo3-ter/rx-shariff": "<=10.3.2",
+        "reelworx/rx-shariff": "<=10.3.2",
+        "typo3-ter/sr-feuser-register": "<=5.0.0",
+        "sjbr/sr-feuser-register": "<=5.0.0",
+        "typo3-ter/templavoilaplus": "<=7.2.1",
+        "templavoilaplus/templavoilaplus": "<=7.2.1"
+    }
+}
