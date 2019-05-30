@@ -6,7 +6,7 @@ Project status: This package is relatively new and not widely used yet. I've bui
 
 ## Usage
 
-`composer require smichaelsen/no-insecure-typo3-extensions`
+`composer require smichaelsen/no-insecure-typo3-extensions dev-master`
 
 From now on when you require a TYPO3 extension that has known security issues (according to the rating in the TER by the TYPO3 security team) you will get a composer conflict on `composer update`.
 
