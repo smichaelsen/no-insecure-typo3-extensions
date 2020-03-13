@@ -20,4 +20,4 @@ This package relies on information from the [TYPO3 TER](https://extensions.typo3
 
 ## How (often) is it updated?
 
-[This project](https://git.maschinenraum.digital/smichaelsen/no-insecure-extensions-updater/) automatically checks the TER extension list for updated security information twice a day and updates this package when necessary.
+[This project](https://gitlab.com/smichaelsen/no-insecure-extensions-updater) automatically checks the TER extension list for updated security information twice a day and updates this package when necessary.
