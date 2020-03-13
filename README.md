@@ -6,9 +6,18 @@ I've built this with best intentions and to my best knowledge. Nevertheless this
 
 ## Usage
 
+### Option #1: Require
+
 `composer require smichaelsen/no-insecure-typo3-extensions dev-master`
 
-From now on when you require a TYPO3 extension that has known security issues (according to the rating in the TER by the TYPO3 security team) you will get a composer conflict on `composer update`.
+Require this package in you project permanently and from now on when you require a TYPO3 extension that has known security issues (according to the rating in the TER by the TYPO3 security team) you will get a composer conflict on `composer update`.
+**Pro**: Easy to setup and fits every (composer based) TYPO3 project. **Con**: You only recognize insecure extensions when you actively perform `composer update`.
+
+## Option #2: Dry Run in CI
+
+If you have a CI that can run tests on your project you can perform `composer update --dry-run smichaelsen/no-insecure-typo3-extensions dev-master` on every test.
+**Pro**: You will immediatelly be informed about insecure extensions in your project in every test run. **Con** You need a CI server or a similar setup where automatic tests are performed.
+
 
 ## Does this make my project (more) secure?
 
