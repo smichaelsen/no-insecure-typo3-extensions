@@ -2,7 +2,7 @@
 
 This package is inspired by [roave/security-advisories](https://github.com/Roave/SecurityAdvisories). When you require this package it ensures that you can not load TYPO3 extensions in versions with known vulnerabilities.
 
-Project status: This package is relatively new and not widely used yet. I've built this with best intentions and to my best knowledge. Nevertheless this comes without guarantee. Do not hold me responsible in case something unexpected/undesired happens.
+I've built this with best intentions and to my best knowledge. Nevertheless this comes without guarantee. Do not hold me responsible in case something unexpected/undesired happens.
 
 ## Usage
 
