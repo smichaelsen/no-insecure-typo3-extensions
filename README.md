@@ -15,8 +15,11 @@ Require this package in you project permanently and from now on when you require
 
 ## Option #2: Dry Run in CI
 
-If you have a CI that can run tests on your project you can perform `composer update --dry-run smichaelsen/no-insecure-typo3-extensions dev-master` on every test.
-**Pro**: You will immediatelly be informed about insecure extensions in your project in every test run. **Con** You need a CI server or a similar setup where automatic tests are performed.
+If you have a CI that can run tests on your project you can perform on every test:
+
+`composer update --dry-run smichaelsen/no-insecure-typo3-extensions dev-master`
+
+**Pro**: You will immediatelly be informed about insecure extensions in your project in every test run. **Con:** You need a CI server or a similar setup where automatic tests are performed.
 
 
 ## Does this make my project (more) secure?
